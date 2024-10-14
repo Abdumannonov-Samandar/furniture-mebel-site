@@ -7,7 +7,8 @@ import Image from "next/image"
 export function SiteHeader() {
   return (
     <header className="border-b py-4">
-      <div className="container px-4 md:px-8 mx-auto flex items-center justify-between">
+      <div className="container px-4 md:px-8 mx-auto">
+        <div className="flex items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <Image
             width={30}
@@ -17,7 +18,7 @@ export function SiteHeader() {
             className="h-8 w-auto"
           />
         </Link>
-        <nav className="hidden md:flex items-center space-x-6">
+        <nav className="hidden md:flex items-center space-x-10">
           <Link href="/" className="text-sm font-medium hover:underline">
             Bosh sahifa
           </Link>
@@ -45,6 +46,7 @@ export function SiteHeader() {
             <span className="sr-only">Sevimlilar</span>
           </Button>
           <CartSheet />
+        </div>
         </div>
       </div>
     </header>

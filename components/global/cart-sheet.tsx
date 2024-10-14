@@ -1,12 +1,7 @@
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button"
 import { ShoppingCart, X, Plus, Minus } from "lucide-react"
-
-// Bu funksiya haqiqiy ma'lumotlar bilan almashtirilishi kerak
-const getCartItems = () => [
-  { id: 1, name: "Stol", price: 199.99, quantity: 1 },
-  { id: 2, name: "Stul", price: 89.99, quantity: 2 },
-]
+import { getCartItems } from "@/data/mock"
 
 export function CartSheet() {
   const cartItems = getCartItems()
