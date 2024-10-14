@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Furniture Mebel Website
 
-## Getting Started
+This is a modern and responsive furniture e-commerce website, designed to showcase various types of furniture and help users explore, search, and purchase products seamlessly.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Responsive Design**: Optimized for desktops, tablets, and mobile devices.
+- **Product Catalog**: Display various furniture products with detailed descriptions, prices, and images.
+- **Search & Filters**: Allow users to search and filter products by category, price range, and other criteria.
+- **Shopping Cart**: Add items to the cart and manage quantities before checkout.
+- **User Authentication**: Login and registration functionality for customers.
+- **Payment Integration**: Integration with popular payment gateways.
+- **Admin Dashboard**: Manage products, orders, and user accounts.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend**: HTML5, CSS3, JavaScript (React.js / Next.js)
+- **Hosting**: Netlify / Vercel / AWS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   
