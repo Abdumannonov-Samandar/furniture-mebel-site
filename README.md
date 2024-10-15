@@ -10,17 +10,19 @@ This is a modern and responsive furniture e-commerce website, designed to showca
 - **Shopping Cart**: Add items to the cart and manage quantities before checkout.
 - **User Authentication**: Login and registration functionality for customers.
 - **Payment Integration**: Integration with popular payment gateways.
-- **Admin Dashboard**: Manage products, orders, and user accounts.
 
 ## Tech Stack
 
-- **Frontend**: HTML5, CSS3, JavaScript (React.js / Next.js)
-- **Hosting**: Netlify / Vercel / AWS
+- **Frontend**: React.js / Next.js
+- **Hosting**: Netlify
 
 
 ## Installation
 
-1. Clone the repository:
+```bash
+  bun install
+```
 
-   ```bash
-   
+```bash
+  bun run dev
+```
