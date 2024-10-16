@@ -1,14 +1,7 @@
 import Feature from "@/components/global/feature"
 import Filter from "@/components/shop/filter"
 import ProductListing from "@/components/shop/product-listing"
-import {
-    Breadcrumb,
-    BreadcrumbItem,
-    BreadcrumbLink,
-    BreadcrumbList,
-    BreadcrumbPage,
-    BreadcrumbSeparator,
-  } from "@/components/ui/breadcrumb"
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator} from "@/components/ui/breadcrumb"
   
 const Page = () => {
   return (
