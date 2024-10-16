@@ -1,4 +1,5 @@
 import Filter from "@/components/shop/filter"
+import ProductListing from "@/components/shop/product-listing"
 // import { Button } from "@/components/ui/button"
 // import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 // import { Grid, LayoutGrid } from "lucide-react"
@@ -19,6 +20,9 @@ const Page = () => {
 
        {/* Filter and Sort Section */}
       <Filter/>
+
+      {/* Product Listing Section */}
+      <ProductListing/>
 
     </main>
   )

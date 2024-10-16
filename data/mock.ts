@@ -25,3 +25,10 @@ export const getCartItems = () => [
   { id: 1, name: "Stol", price: 199.99, quantity: 1 },
   { id: 2, name: "Stul", price: 89.99, quantity: 2 },
 ]
+
+export const products = [
+  { id: 1, name: "Syltherine", price: 2500000, sale: true, image: "https://picsum.photos" },
+  { id: 2, name: "Leviosa", price: 2500000, sale: false, image: "https://picsum.photos" },
+  { id: 3, name: "Lolito", price: 7000000, sale: false, image: "https://picsum.photos" },
+  { id: 4, name: "Respira", price: 500000, sale: true, image: "https://picsum.photos" },
+]

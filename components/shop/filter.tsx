@@ -6,7 +6,7 @@ import { Grid, LayoutGrid } from 'lucide-react'
 const filter = () => {
   return (
     <section className="py-6 bg-pink-100">
-        <div className="container px-4 md:px-8 mx-auto">
+        <div className="container px-4 md:px-8 mx-auto max-w-[1236px]">
             <div className="flex flex-col sm:flex-row justify-between items-center ">
         <div className="flex items-center space-x-2 mb-4 sm:mb-0">
           <Button variant="outline" size="icon">
