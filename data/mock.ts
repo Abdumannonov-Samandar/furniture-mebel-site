@@ -27,8 +27,12 @@ export const getCartItems = () => [
 ]
 
 export const products = [
-  { id: 1, name: "Syltherine", price: 2500000, sale: true, image: "https://picsum.photos" },
-  { id: 2, name: "Leviosa", price: 2500000, sale: false, image: "https://picsum.photos" },
-  { id: 3, name: "Lolito", price: 7000000, sale: false, image: "https://picsum.photos" },
-  { id: 4, name: "Respira", price: 500000, sale: true, image: "https://picsum.photos" },
+  { id: 1, name: "Syltherine", price: 2500000, sale: true, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', image: "https://picsum.photos/334" },
+  { id: 2, name: "Leviosa", price: 2500000, new: true, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', image: "https://picsum.photos/335" },
+  { id: 3, name: "Lolito", price: 7000000, new: true, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',  image: "https://picsum.photos/336" },
+  { id: 4, name: "Respira", price: 500000, sale: true, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', image: "https://picsum.photos/337" },
+  { id: 5, name: "Dolce & Gabbana", price: 2500000, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', image: "https://picsum.photos/338" },
+  { id: 6, name: "Dolce & Gabbana", price: 2500000, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', image: "https://picsum.photos/339" },
+  { id: 7, name: "Dolce & Gabbana", price: 2500000, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', image: "https://picsum.photos/340" },
+  { id: 8, name: "Dolce & Gabbana", price: 2500000, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', image: "https://picsum.photos/341" },
 ]
