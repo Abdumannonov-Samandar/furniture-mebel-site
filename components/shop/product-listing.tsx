@@ -3,12 +3,13 @@ import Image from 'next/image'
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
 import { products } from '@/data/mock'
 import { Button } from '../ui/button'
+import { PaginationDemo } from './pagination'
 
 export default function ProductListing() {
   return (
     <section className="pb-10 pt-16">
       <div className="container px-4 md:px-8 mx-auto max-w-[1236px]">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-10">
           {products.map((product) => (
             <Card key={product.id} className="p-0 group overflow-hidden">
               <CardHeader className="p-0">
@@ -41,6 +42,7 @@ export default function ProductListing() {
             </Card>
           ))}
         </div>
+        <PaginationDemo />
       </div>
     </section>
   )
