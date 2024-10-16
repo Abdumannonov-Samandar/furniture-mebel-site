@@ -1,5 +1,4 @@
 
-// Footer information
 export const footerInfo = {
     logo: "/logo.svg",
     address: "Manzil: Toshkent sh., Chilonzor tumani, 1-mavze",
@@ -35,4 +34,11 @@ export const products = [
   { id: 6, name: "Dolce & Gabbana", price: 2500000, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', image: "https://picsum.photos/339" },
   { id: 7, name: "Dolce & Gabbana", price: 2500000, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', image: "https://picsum.photos/340" },
   { id: 8, name: "Dolce & Gabbana", price: 2500000, desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', image: "https://picsum.photos/341" },
+]
+
+export const feature = [
+  { icon: "🏆", title: "High Quality", description: "crafted from top materials" },
+  { icon: "🛡️", title: "Warranty Protection", description: "Over 2 years" },
+  { icon: "🚚", title: "Free Shipping", description: "Order over 150 $" },
+  { icon: "📞", title: "24 / 7 Support", description: "Dedicated support" },
 ]
