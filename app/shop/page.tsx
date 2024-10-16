@@ -1,3 +1,4 @@
+import Feature from "@/components/global/feature"
 import Filter from "@/components/shop/filter"
 import ProductListing from "@/components/shop/product-listing"
 import {
@@ -36,6 +37,9 @@ const Page = () => {
 
       {/* Product Listing Section */}
       <ProductListing/>
+
+      {/* Feature Section */}
+      <Feature/>
 
     </main>
   )
