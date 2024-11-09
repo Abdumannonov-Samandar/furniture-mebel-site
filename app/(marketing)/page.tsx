@@ -1,8 +1,10 @@
+import Hero from '@/components/marketing/hero'
 
 export default function Home() {
   return (
     <main>
-      <h1>Hello World</h1>
+      <Hero/>
+      
     </main>
   );
 }
